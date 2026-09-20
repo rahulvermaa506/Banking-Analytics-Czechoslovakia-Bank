@@ -22,13 +22,13 @@ The project follows a complete Data Analyst workflow:
 - Python
 - Pandas
 - NumPy
--  Matplotlib
--  Seaborn
--  Power BI
+- Matplotlib
+- Seaborn
+- Power BI
 
 ---
 
-  ## Project Highlights
+## Project Highlights
 
 - ~1M transaction records analyzed
 - 5,369 customers
@@ -43,6 +43,8 @@ The project follows a complete Data Analyst workflow:
 - Transaction & financial performance analysis
 - Regional & district-level analysis
 - Card and product adoption analysis
+
+---
 
 ## Dashboard Preview
 
@@ -101,10 +103,10 @@ The project follows a complete Data Analyst workflow:
 - Customer and account penetration differs across regions after population normalization.
 - A small group of districts contributes a significant share of transaction activity.
 - District-level salary and unemployment provide additional context for regional performance.
----
-
 
 ---
+
+## Project Structure
 
 ```text
 sql/
@@ -122,6 +124,7 @@ powerbi_screenshots/
 ├── 03_Loan_Portfolio_Risk_Analytics.png
 ├── 04_Transaction_Financial_Performance.png
 └── 05_Regional_Market_Analysis.png
+```
 
 ## Author
 
