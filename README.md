@@ -28,16 +28,6 @@ The project follows a complete Data Analyst workflow:
 
 ---
 
-## Dashboard Preview
-
-### 01. Bank Executive Overview
-
-![Bank Executive Overview](powerbi_screenshots/01_Bank_Executive_Overview.png)
-
-**Key Insights**
-- Transaction activity increased substantially across the available years.
-- Withdrawal transactions represent the largest share of transaction volume.
-
   ## Project Highlights
 
 - ~1M transaction records analyzed
@@ -53,6 +43,16 @@ The project follows a complete Data Analyst workflow:
 - Transaction & financial performance analysis
 - Regional & district-level analysis
 - Card and product adoption analysis
+
+## Dashboard Preview
+
+### 01. Bank Executive Overview
+
+![Bank Executive Overview](powerbi_screenshots/01_Bank_Executive_Overview.png)
+
+**Key Insights**
+- Transaction activity increased substantially across the available years.
+- Withdrawal transactions represent the largest share of transaction volume.
 
 ---
 
@@ -106,10 +106,24 @@ The project follows a complete Data Analyst workflow:
 
 ---
 
-## Project Structure
-
 ```text
 sql/
+├── 01_Data_Audit.sql
+├── 02_Data_Validation.sql
+└── 03_Customer_360.sql
+
 python/
+├── 01_Data_Cleaning.ipynb
+└── 02_Data_EDA.ipynb
+
 powerbi_screenshots/
-docs/
+├── 01_Bank_Executive_Overview.png
+├── 02_Customer_Product_Analytics.png
+├── 03_Loan_Portfolio_Risk_Analytics.png
+├── 04_Transaction_Financial_Performance.png
+└── 05_Regional_Market_Analysis.png
+
+## Author
+
+**Rahul Verma**  
+BCA | Aspiring Data Analyst / Data Scientist
